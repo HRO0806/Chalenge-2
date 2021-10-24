@@ -1,0 +1,28 @@
+:root {
+    --tan: #ccbf71ff;
+    --darkblue: #185267ff;
+    --orange: #ce850dff;
+    --brown: #272315ff;   
+}
+
+body {
+    background-color: var(--tan);
+}
+
+.header {
+    background-color: var(--darkblue);
+    width: 1100px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.header h1 {
+    color: var(--orange);
+    font-size: 75px;
+    display: flex;
+    margin: 100px;
+    align-items: flex-end;
+}
