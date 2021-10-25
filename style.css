@@ -26,3 +26,45 @@ body {
     margin: 100px;
     align-items: flex-end;
 }
+
+.hero {
+    background-color: var(--darkblue);
+    width: 1300px;
+    height: 470px;
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.hero img {
+    width: 400px;
+    height: 400px;
+    margin: 35px 100px;
+}
+
+.nav-bar {
+    background-color: var(--brown);
+    width: 600px;
+    height: 400px;
+    margin: 35px 100px;
+}
+
+.nav-bar h2{
+    color: var(--orange);
+    font-size: 50px;
+    margin: 10px;
+}
+
+.nav-bar ul {
+    color: var(--orange);
+    font-size: 40px;
+}
+.nav-bar ul a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.hero div {
+    display: flex;
+}
+
