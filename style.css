@@ -77,10 +77,10 @@ body {
     margin: auto;
 }
 
-.title h3 {
+#bio-h3 {
     color: var(--orange);
     font-size: 50px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .about-me {
@@ -90,17 +90,7 @@ body {
     margin: 30px auto; 
 }
 
-.about-me-title {
-    background-color: var(--darkblue);
-    width: 700px;
-    height: 100px;
-    position: relative;
-    bottom: -25px; 
-    margin: auto;
-    text-align: center; 
-}
-
-.about-me-title h4 {
+.title-h3 {
     color: var(--orange);
     font-size: 40px;
     margin: auto;
@@ -119,4 +109,18 @@ body {
     color: var(--orange);
     font-size: 40px;
     line-height: 2;
+}
+
+#projects-h3 {
+    color: var(--orange);
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+.brown-box {
+    background-color: var(--brown);
+    width: 450px;
+    height: 500px;
+    display: inline-block;
+    margin: 50px 0 50px 160px;
 }
