@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px auto;
+    margin: 20px auto 30px auto;
 }
 
 .header h1 {
@@ -32,7 +32,7 @@ body {
     width: 1300px;
     height: 470px;
     display: flex;
-    margin: 50px auto;
+    margin: 0 auto 60px auto;
     justify-content: center;
 }
 
@@ -68,3 +68,55 @@ body {
     display: flex;
 }
 
+.title {
+    background-color: var(--darkblue);
+    width: 600px;
+    height: 125px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+.title h3 {
+    color: var(--orange);
+    font-size: 50px;
+    margin: auto;
+}
+
+.about-me {
+    background-color: var(--brown);
+    width: 1200px;
+    height: 500px;
+    margin: 30px auto; 
+}
+
+.about-me-title {
+    background-color: var(--darkblue);
+    width: 700px;
+    height: 100px;
+    position: relative;
+    bottom: -25px; 
+    margin: auto;
+    text-align: center; 
+}
+
+.about-me-title h4 {
+    color: var(--orange);
+    font-size: 40px;
+    margin: auto;
+    position: relative;
+    bottom: -25px
+}
+
+.bio-info {
+    background-color: var(--darkblue);
+    width: 900px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.bio-info {
+    color: var(--orange);
+    font-size: 40px;
+    line-height: 2;
+}
