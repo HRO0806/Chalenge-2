@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px auto;
+    margin: 20px auto 30px auto;
 }
 
 .header h1 {
@@ -26,3 +26,113 @@ body {
     margin: 100px;
     align-items: flex-end;
 }
+
+.hero {
+    background-color: var(--darkblue);
+    width: 1300px;
+    height: 470px;
+    display: flex;
+    margin: 0 auto 60px auto;
+    justify-content: center;
+}
+
+.hero img {
+    width: 400px;
+    height: 400px;
+    margin: 35px 100px;
+}
+
+.nav-bar {
+    background-color: var(--brown);
+    width: 600px;
+    height: 400px;
+    margin: 35px 100px;
+}
+
+.nav-bar h2{
+    color: var(--orange);
+    font-size: 50px;
+    margin: 10px;
+}
+
+.nav-bar ul {
+    color: var(--orange);
+    font-size: 40px;
+}
+.nav-bar ul a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.hero div {
+    display: flex;
+}
+
+.title {
+    background-color: var(--darkblue);
+    width: 600px;
+    height: 125px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+#bio-h3 {
+    color: var(--orange);
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+#bio-title {
+    position: relative;
+    top: 20px;
+}
+
+.about-me {
+    background-color: var(--brown);
+    width: 1200px;
+    height: 500px;
+    margin: 30px auto 50px auto; 
+}
+
+.title-h3 {
+    color: var(--orange);
+    font-size: 40px;
+    margin: auto;
+    position: relative;
+    bottom: -25px
+}
+
+.bio-info {
+    background-color: var(--darkblue);
+    width: 900px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.bio-info {
+    color: var(--orange);
+    font-size: 40px;
+    line-height: 2;
+}
+
+#projects-h3 {
+    color: var(--orange);
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+#box-1 {
+    background-color: var(--brown);
+    width: 900px;
+    height: 500px;
+    margin: 30px auto 50px auto;
+}
+
+.box {
+    background-color: var(--brown);
+    width: 500px;
+    height: 450px;
+    display: inline-block;
+    margin: 20px 0 50px 125px
+}    
