@@ -135,4 +135,15 @@ body {
     height: 450px;
     display: inline-block;
     margin: 20px 0 50px 125px
-}    
+} 
+
+#movie-me {
+    font-size: 60px;
+    color: var(--orange);
+    text-align: center;
+}
+
+a {
+    color: var(--orange);
+    text-decoration: none;
+}
