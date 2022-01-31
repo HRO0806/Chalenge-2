@@ -143,6 +143,12 @@ body {
     text-align: center;
 }
 
+#Hidden-Gems {
+    font-size: 60px;
+    color: var(--orange);
+    text-align: center;
+}
+
 a {
     color: var(--orange);
     text-decoration: none;
